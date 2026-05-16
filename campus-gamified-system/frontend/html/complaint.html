@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Page</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/complaint.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">CampusX</div>
+
+        <div class="nav-links">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="complaint.html">Complaint</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="index.html">Logout</a>
+        </div>
+    </nav>
+
+    <section class="complaint-section">
+    <div class="complaint-container">
+        <h1>Submit a <span>Complaint</span></h1>
+        <form class="complaint-form">
+
+            <input type="text"
+            placeholder="Complaint Title" required>
+
+            <select required>
+                <option value="">Select Category</option>
+                <option>Electricity</option>
+                <option>Water</option>
+                <option>WiFi</option>
+                <option>Classroom</option>
+                <option>Hostel</option>
+            </select>
+            <textarea rows="6"
+            placeholder="Describe your issue..."
+            required></textarea>
+            <button class="btn primary-btn">
+                Submit Complaint
+            </button>
+        </form>
+    </div>
+</section>
+<script src="../js/complaint.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

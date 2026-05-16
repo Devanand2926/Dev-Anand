@@ -1,0 +1,61 @@
+.dashboard{
+    padding:50px 8%;
+}
+
+.dashboard h1{
+    font-size:3rem;
+    margin-bottom:40px;
+}
+
+.dashboard h1 span{
+    color:#C084FC;
+    text-shadow:0 0 15px #A855F7;
+}
+
+.stats-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-bottom:50px;
+}
+
+.stat-card{
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(168,85,247,0.2);
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.stat-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(168,85,247,0.5);
+}
+
+.stat-card i{
+    font-size:2.5rem;
+    color:#C084FC;
+    margin-bottom:20px;
+}
+
+.stat-card h2{
+    margin-bottom:10px;
+}
+
+.recent-section{
+    margin-top:40px;
+}
+
+.recent-section h2{
+    margin-bottom:20px;
+    color:#C084FC;
+}
+
+.complaint-card{
+    background:rgba(255,255,255,0.05);
+    border-left:4px solid #A855F7;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:12px;
+}

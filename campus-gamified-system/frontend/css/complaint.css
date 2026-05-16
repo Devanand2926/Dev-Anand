@@ -1,0 +1,56 @@
+.complaint-section{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:60px;
+}
+.complaint-container{
+    width:100%;
+    max-width:700px;
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(168,85,247,0.2);
+    border-radius:20px;
+    padding:40px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 0 25px rgba(168,85,247,0.15);
+}
+.complaint-container h1{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:2.5rem;
+}
+.complaint-container h1 span{
+    color:#C084FC;
+    text-shadow:0 0 15px #A855F7;
+}
+.complaint-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.complaint-form input,
+.complaint-form select,
+.complaint-form textarea{
+    width:100%;
+    padding:16px;
+    border:none;
+    outline:none;
+    border-radius:12px;
+    background:rgba(255,255,255,0.06);
+    color:white;
+    border:1px solid rgba(168,85,247,0.2);
+    font-size:1rem;
+}
+.complaint-form textarea{
+    resize:none;
+}
+.complaint-form input:focus,
+.complaint-form select:focus,
+.complaint-form textarea:focus{
+    border:1px solid #A855F7;
+    box-shadow:0 0 15px rgba(168,85,247,0.5);
+}
+.complaint-form button{
+    width:100%;
+}
